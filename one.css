@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+
+}
+.parent1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width:50%;
+    
+} 
+
+img{
+    width: 100%;
+}
+.parent2,.parent3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+.parent4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.six{
+    width:50%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.six div{
+    width:33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent5{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 50%;
+
+}
+
+.eight{
+    border-radius: 50%;
+}
+a{
+    color: rgb(234, 161, 161);
+}
+
+
+
+
+    
